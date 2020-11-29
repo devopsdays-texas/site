@@ -1,4 +1,4 @@
-baseurl: "https://devopsdaystx.com/"
+baseurl: "http://devopsdays-texas.github.io"
 title: "DevOps Days Texas"
 canonifyurls: true
 theme: "hugo-conference"
