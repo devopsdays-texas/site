@@ -1,0 +1,67 @@
+baseurl: "https://devopsdaystx.com/"
+title: "DevOps Days Texas"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "DevOps Days Texas 2021"
+  Description: "An online gathering of the best Texas DevOps has to offer!"
+  Date: "March 2nd, 2021"
+  Venue: "Online"
+  #Address: "Boulevard Kukulcan, 30"
+  #City:  "Cancún"
+  State: "Texas"
+  Images: ["/img/badge.jpg"]
+  #GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+#    - location
+#    - speakers
+#    - schedule
+#    - sponsors
+#    - partners
+#    - contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+#    location: "Location"
+#    speakers: "Speakers"
+#    schedule: "Schedule"
+#    sponsors: "Sponsors"
+#    partners: "Partners"
+#    contact: "Contact"
+
+  Content: 
+    about: "Missing your dose of DevOps Days, Texas-Style this year? We were too. Stay tuned for information about this upcoming conference."
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+#  CallToAction:
+#    text: "Register now!"
+#    link: "http://register.example.com"
+
+  # Fork me on GitHub, if you don't want this, just remove the forkButton property
+  ForkButton:
+    repository: "https://github.com/devopsdays-texas/site/"
+
+  # List of Sponsors
+  Sponsors:
+    - name: "Arrested DevOps"
+      logo: "https://d33wubrfki0l68.cloudfront.net/a835c222a3ca4029921832e40cc08ff6993f19bf/62f19/img/sponsors/arresteddevops.png"
+      url: "https://www.arresteddevops.com/"
+
+  # List of Partners
+#  Partners:
+#    - name: "Hugo"
+#      logo: "/img/hugo.jpg"
+#      url: "https://gohugo.io"
+#    - name: "BrazilJS"
+#      logo: "/img/partner.png"
+#      url: "http://braziljs.org"
+
