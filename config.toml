@@ -1,0 +1,68 @@
+theme = "bento"
+languageCode = "en-us"
+baseurl = "https://devopsdays-texas.github.io/"
+title = "DevOpsDays Texas 2021"
+
+author = "Leonardo Faria"
+copyright = "MIT"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# Better code higlighting
+# via https://discourse.gohugo.io/t/pygmentscodefences-how-to-choose-themes/3842/3
+pygmentsCodefences = true
+pygmentsStyle = "vs"
+
+# Hightlight theme
+[markup.highlight]
+  style = "github"
+
+# Allow HTML rendering inside markdown
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  # Show intro in the home page (with headline and description)
+  intro = false
+  headline = "Welcome to Texas!"
+  #description = "Here's your day-of guide with links"
+
+  # Copyright note in the footer
+  copyright = "Copyright © 2020 DevOpsDays Texas"
+
+  # Image in the homepage. You can setup a different image for social media
+  cover = "images/BannerTwitter.png"
+  ogImage = "images/Logo300px.png"
+
+  # Social media usernames
+  twitter = "devopsdaystexas"
+  linkedin = "https://www.linkedin.com/company/devopsdays-texas"
+  email = "texas@devopsdays.org"
+  rss = false
+
+  # Avatar (shown in the homepage)
+  avatar = "images/Logo300px.png"
+
+# Items in the top menu
+[menu]
+  [[menu.main]]
+      name = "Schedule"
+      url = "/schedule"
+      weight = 1
+
+  [[menu.main]]
+      name = "Speakers"
+      url = "/speakers"
+      weight = 1
+
+  [[menu.main]]
+      name = "Sponsors"
+      url = "/sponsors"
+      weight = 1
+
+  [[menu.main]]
+      name = "How To"
+      url = "/howto"
+      weight = 2
