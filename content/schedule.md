@@ -11,4 +11,4 @@ hideComments = "true"
 hideSuggestions = "true"
 +++
 
-Schedule here
+<script type="text/javascript" src="https://sessionize.com/api/v2/o48vgd07/view/GridSmart"></script>
