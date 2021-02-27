@@ -1,0 +1,46 @@
+{{ define "main" }}
+<main>
+    <article class="article"><h1 class="leading-9">{{.Title}}</h1></article>
+    <div class="p-8">
+        <h2 class="text-4xl">Captioning Sponsors</h2>
+        <ul class="flex flex-row list-none">
+        {{ range where .Pages "Params.level" "caption" }}
+            {{ .Render "li" }}
+        {{ end }} 
+        </ul>
+    </div>
+    <div class="p-8">
+        <h2 class="text-4xl">Gold Sponsors</h2>
+        <ul class="flex flex-row list-none align-middle">
+        {{ range where .Pages "Params.level" "gold" }}
+            {{ .Render "li" }}
+        {{ end }} 
+        </ul>
+    </div>
+    <div class="p-8">
+        <h2 class="text-4xl">Silver Sponsors</h2>
+        <ul class="flex flex-row list-none">
+        {{ range where .Pages "Params.level" "silver" }}
+            {{ .Render "li" }}
+        {{ end }} 
+        </ul>
+    </div>
+    <div class="p-8">
+        <h2 class="text-4xl">Bronze Sponsors</h2>
+        <ul class="flex flex-row list-none">
+        {{ range where .Pages "Params.level" "bronze" }}
+            {{ .Render "li" }}
+        {{ end }} 
+        </ul>
+    </div>
+    <div class="p-8">
+        <h2 class="text-4xl">Community Sponsors</h2>
+        <ul class="flex flex-row list-none">
+        {{ range where .Pages "Params.level" "community" }}
+            {{ .Render "li" }}
+        {{ end }} 
+        </ul>
+    </div>
+</article>
+</main>
+{{ end }}
