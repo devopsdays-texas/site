@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main> 
+    <article class="article"><h1 class="leading-9">{{.Title}}</h1></article>
+    <div class="space-y-4">
+        {{ range .Pages }}
+            {{ .Render "li" }}
+        {{ end }} 
+    </div>
+
+</main>
+{{ end }}
