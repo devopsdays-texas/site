@@ -10,23 +10,19 @@
           </time>
   
           {{ range (.GetTerms "tags") }}
-            <a href="{{ .Permalink }}" class="inline-flex items-center px-4 py-1 rounded-full no-underline bg-orange-100 text-orange-800 hover:bg-orange-300 ml-4">
               {{ .LinkTitle }}
-            </a>
           {{ end }}
         </small>
 
         <h1 class="leading-9 text-center">
-          <a href="{{.Permalink}}" class="no-underline inline-block text-black relative">
             <div class="dots" aria-hidden="true"></div>
             {{ .Title }}
-          </a>
         </h1>
       </header>
 
     {{ else }}
 
-    <h1 class="leading-9"><a href="{{.Permalink}}" class="no-underline text-black">{{ .Title }}</a></h1>
+    <h1 class="leading-9">{{ .Title }}</h1>
 
     {{ end }}
 

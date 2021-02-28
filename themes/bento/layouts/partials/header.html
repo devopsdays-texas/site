@@ -20,9 +20,8 @@
 {{else}}
   <header id="header" class="w-full m-0 fixed z-10 transition-all duration-300 ease-in-out border-t-4 border-gray-300 backdrop-filter-blur">
     <div id="header-container" class="max-w-7xl mx-auto p-6 flex items-center flex-wrap lg:flex-no-wrap relative justify-between">
-      <a href="{{ .Site.Home.Permalink }}" class="tracking-tighter leading-10 text-3xl font-semibold text-gray-600 flex flex-shrink-0">
-        {{ .Site.Title }}
-      </a>
+      <img src="/{{ .Site.Params.ogImage }}" width="75" alt="DoD ATX 2021" />
+      <a href="{{ .Site.Home.Permalink }}" class="tracking-tighter align-middle leading-10 text-3xl font-semibold text-gray-600 flex flex-shrink-0">{{ .Site.Title }}</a>
 
       <div class="block lg:hidden mx-2">
         {{ partial "nav-menu-buttons.html" . }}
