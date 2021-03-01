@@ -33,7 +33,7 @@ pygmentsStyle = "vs"
   copyright = "Copyright © 2020 DevOpsDays Texas"
 
   # Image in the homepage. You can setup a different image for social media
-  cover = "images/BannerTwitter.png"
+  cover = "images/banner.jpg"
   ogImage = "images/Logo300px.png"
 
   # Social media usernames
