@@ -30,7 +30,7 @@ pygmentsStyle = "vs"
   #description = "Here's your day-of guide with links"
 
   # Copyright note in the footer
-  copyright = "Copyright © 2020 DevOpsDays Texas"
+  copyright = "Copyright © 2021 DevOpsDays Texas"
 
   # Image in the homepage. You can setup a different image for social media
   cover = "images/banner.jpg"
