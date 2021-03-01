@@ -26,10 +26,14 @@ Participation, including the hallway track, discussion, OpenSpaces, Party Games,
 
 You will need to download and install [The Discord Client](https://discord.com/), register for a Discord Account, and join the conference Discord Server via the link provided in the Eventbrite email. 
 
+{{< youtube id="SlAwU2QW1aY" title="How to use Discord" >}}
+
 ### Hallway Track
 
 Please feel free to chat with your fellow conference attendees in the Grand Hall and Water Cooler channels. Sponsors are available in their rooms to demonstrate your products. 
 
 ### OpenSpaces
 
-One of the features we've all missed the most during the past year has been the free-form conversations and user-driven nature of [OpenSpaces](https://www.agilealliance.org/glossary/open-space), also known as "unconferences". We'll be using Discord and several other tools to run a Digital OpenSpaces! 
+One of the features we've all missed the most during the past year has been the free-form conversations and user-driven nature of [OpenSpaces](https://www.agilealliance.org/glossary/open-space), also known as "unconferences". We'll be using Discord and [Mural](https://www.mural.co/) to run a Digital OpenSpaces! Watch the video below to see how this will work. 
+
+{{< youtube id="kwcSf7Y-4RU" title="How to use Mural for OpenSpaces" >}}
