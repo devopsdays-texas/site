@@ -6,4 +6,4 @@ author = "Organizers"
 
 Welcome to our first all-digital conference!
 
-{{< youtube Ji_Dl92D6ps >}}
+Register at [EventBrite](https://www.eventbrite.com/e/devopsdays-texas-tickets-132588572991) for the YouTube and Discord links!
