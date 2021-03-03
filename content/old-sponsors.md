@@ -20,7 +20,7 @@ hideSuggestions = "true"
 - env0
 - Chef
 - Site24x7
-- Liatro
+- Liatrio
 - StackHawk
 - LogDNA
 
